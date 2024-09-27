@@ -89,6 +89,10 @@ body {
 	width: 80%;
 	font-size: 14px;
 }
+
+#gallery {
+	/*	min-height: 100vh; */
+}
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -97,8 +101,8 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
-	background-color: #7D752E;
+	color: #000;
+	background-color: #BEB45A;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
@@ -140,7 +144,6 @@ body {
 	padding-block: 3em;
 }
 .quote__text {
-	font-size: 2.5rem;
 	font-family: Spectral;
 	font-style: italic;
 	font-weight: 300;
@@ -241,6 +244,20 @@ input[type="submit"] {
 	padding: .5em 1em
 }
 
+footer {
+	background-color: #fff;
+	padding: 20px 0;
+	font-size: 14px;
+	text-align: center;
+	width: 100%;
+	margin-top: auto;
+}
+
+footer p {
+	margin-bottom: 0;
+}
+
+
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
@@ -253,7 +270,6 @@ input[type="submit"] {
 		margin-bottom: 1em;
 	}
 	#about-me h6, #about-me p {
-		font-size: 1.1rem;
 		width: 100%;
 	}
 }
@@ -351,4 +367,12 @@ input[type="submit"] {
 		width: 80%;
 	}
 }
+
+
+
+
+
+
+
+
 
