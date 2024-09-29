@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Nina Carducci - Photographie & Événementiel</title>
 
-	<!-- Preload assets -->
+	<!-- Preload assets améliore les performances de chargement du site -->
 	<link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" as="style">
 	<link rel="preload" href="./assets/bootstrap/bootstrap.min.css" as="style">
 	<link rel="preload" href="./assets/style.css" as="style">
@@ -15,18 +15,21 @@
 	<link rel="preload" href="./assets/maugallery.min.js" as="script">
 	<link rel="preload" href="./assets/scripts.min.js" as="script">
 
-	<!-- Preconnect for faster external resources -->
+	<!-- Preconnect for faster external resources accélère le chargement.-->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link rel="canonical" href="https://ninacarducci.github.io/" />
+	<link rel="canonical" href="https://ninacarducci.github.io/" />  <!-- Canonical URL pour éviter le contenu dupliqué. -->
 
-	<!-- Meta description and Open Graph -->
-	<meta name="description" content="Portfolio de Nina Carducci, photographe à Bordeaux. Mariages, portraits et événements.">
+
+	<!-- Meta description and Open Graph Propriétés Open Graph (balises og:) : optimisent l'affichage du site lorsqu'il est partagé 
+	 sur des réseaux sociaux comme Facebook -->
+	<meta name="description" content="Portfolio de Nina Carducci, photographe à Bordeaux. Mariages, portraits et événements."> <!--permet aux moteurs de recherche de mieux comprendre le contenu du site. Meta description. -->
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="Nina Carducci - Photographe à Bordeaux">
 	<meta property="og:description" content="Découvrez le portfolio de Nina Carducci, spécialisée dans les mariages et portraits à Bordeaux.">
-	<meta property="og:url" content="https://ninacarducci.github.io/">
+	<meta property="og:url" content="https://github.com/Ngueminping48/Projet_08-Nina-Carducci/">
 	<meta property="og:image" content="./assets/images/nina.webp">
+	<meta property="og:image" content="https://github.com/Ngueminping48/Projet_08-Nina-Carducci/assets/images/nina.webp"/>
 
 	<!-- Twitter metadata -->
 	<meta name="twitter:card" content="summary_large_image">
@@ -39,7 +42,8 @@
 	<link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="./assets/style.css">
 
-	<!-- Structured Data: Local Business -->
+	<!-- Structured Data: Local Business Ce script JSON-LD permet de décrire l’entreprise sous forme de données structurées pour les moteurs de recherche
+	  afin d'améliorer le référencement local et enrichir les résultats de recherche.-->
 	<script type="application/ld+json">
 		{
 		  "@context": "https://schema.org",
