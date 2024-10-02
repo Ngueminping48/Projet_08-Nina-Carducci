@@ -87,7 +87,7 @@ body {
 }
 #about-me p {
 	width: 80%;
-	font-size: 14px;
+	font-size: 15px;
 }
 
 #gallery {
@@ -256,6 +256,9 @@ footer {
 
 footer p {
 	margin-bottom: 0;
+	text-align: center;
+	display: block;
+	
 }
 
 
