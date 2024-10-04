@@ -390,3 +390,9 @@ footer p {
 		height: auto;
 	}
 }
+	.carousel-control-prev,
+	.carousel-control-next {
+  	background-color: rgba(0, 0, 0, 0.068);
+  	border: none;
+  	display: inline-block;
+}

@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="robots" content="index, follow">
 	<title>Nina Carducci - portraits & événementiel à Bordeaux</title>
 
 	<!-- Preload fonts, styles, and scripts to speed up page loading -->
@@ -23,11 +21,11 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
 	<!-- SEO -->
-	<meta name="description" content="Nina Carducci, une photographe passionnée
-  basée à Bordeaux, ma mission est de rendre immortels vos plus beaux moments, 
-  avec des séances de shootings photos et aussi en retouchant vos anciennes photos et la réalisation de beaux albums">
-	<link rel="canonical" href="https://ninacarducci.github.io/" >
-  
+	<meta name="description"
+		content="Découvrez le portfolio de Nina Carducci, photographe à Bordeaux, spécialisée dans les mariages, portraits et événements !">
+	<link rel="canonical" href="https://ninacarducci.github.io/" />
+
+
 	<!--Facebook -->
 	<meta property="og:type" content="website">
 	<meta property="author" content="Nina Carducci">
@@ -105,80 +103,47 @@
 
     <main>
 
-      <header id="header">
-        
-        <!-- Slides -->
-        <div class="carousel-inner">
-          <div class="carousel-item active">
+      
+		<header id="header">
 
-            <picture>
-              <source
-                srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-800.webp"
-                media="(max-width: 650px)"
-              >
-              <source
-                srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-1000.webp"
-                media="(max-width: 1000px)"
-              >
-              <source
-                srcset="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash-1180.webp"
-                media="(max-width: 1180px)"
-              >
-              <img
-                src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp"
-                class="d-block w-100"
-                alt="Photo d'un homme qui marche sur un passage piéton"
-              >
-            </picture>
+			<figure id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+						class="active" aria-current="true" aria-label="Slide 1"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+						aria-label="Slide 2"></button>
+					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+						aria-label="Slide 3"></button>
+				</div>
 
-          </div>
+				<!-- Carousel -->
+				<div class="carousel-inner">
+					<figure class="carousel-item active">
+						<picture>
+							<source srcset="./assets/images/slider/ryoji-iwata-unsplash.webp" type="image/webp">
+							<img src="./assets/images/slider/ryoji-unsplash.webp" class="d-block img-fluid"
+								alt="un homme en costume marchant sur un passage piéton" width="1920" height="888">
+						</picture>
+					</figure>
+					<figure class="carousel-item">
+						<picture>
+							<source srcset="./assets/images/slider/nicholas-green-unsplash.webp" type="image/webp">
+							<img src="./assets/images/slider/nicholas-green-unsplash.webp" class="d-block w-100"
+								alt="Plusieurs personnes heureuses dans un concert" loading="lazy" width="1920"
+								height="888">
+						</picture>
+					</figure>
+					<figure class="carousel-item">
+						<picture>
+							<source srcset="./assets/images/slider/edward-cisneros-nsplash.webp" type="image/webp">
+							<img src="./assets/images/slider/edward-cisneros-nsplash.webp" class="d-block w-100"
+								alt="Deux mariés s'embrassant pendant leur mariage" loading="lazy" width="1920"
+								height="887">
+						</picture>
+					</figure>
+				</div>
 
-          <div class="carousel-item">
-            <picture>
-              <source
-                srcset="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-800.webp"
-                media="(max-width: 650px)"
-              >
-              <source
-                srcset="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-1000.webp"
-                media="(max-width: 1000px)"
-              >
-              <source
-                srcset="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash-1180.webp"
-                media="(max-width: 1180px)"
-              >
-              <img
-                src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp"
-                class="d-block w-100"
-                alt="Photo d'une foule de jeunes les mains en l'air, heureux."
-              >
-            </picture>
-          </div>
-
-          <div class="carousel-item">
-            <picture>
-              <source
-                srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-800.webp"
-                media="(max-width: 650px)"
-              >
-              <source
-                srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-1000.webp"
-                media="(max-width: 1000px)"
-              >
-              <source
-                srcset="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash-1180.webp"
-                media="(max-width: 1180px)"
-              >
-              <img
-                src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp"
-                class="d-block w-100"
-                alt="Photo d'un homme qui embrasse sa femme lors de son mariage"
-              >
-            </picture>
-          </div>
-        </div>
-
-
+        <!-- Left and right controls -->
           <!-- Left and right controls -->
           <button
             class="carousel-control-prev"
